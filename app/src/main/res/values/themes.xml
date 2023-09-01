@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.OnlineShop_No1" parent="Theme.AppCompat.DayNight.NoActionBar" />
+    <style name="Theme.OnlineShop_No1" parent="Theme.AppCompat.DayNight.NoActionBar" >
+        <item name="colorPrimaryDark">@color/white</item>
+    </style>
     <style name="textStyle" parent="Widget.AppCompat.TextView">
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/black</item>

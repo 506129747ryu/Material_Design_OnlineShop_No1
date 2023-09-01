@@ -41,7 +41,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="2dp"
-                    android:src="@tools:sample/avatars"
                     app:srcCompat="@drawable/arrow" />
 
                 <TextView
@@ -113,7 +112,7 @@
                     tools:layout_marginTop="8dp" />
 
                 <TextView
-                    android:id="@+id/subtotalTxt"
+                    android:id="@+id/totalFeeTxt"
                     style="@style/textStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -127,11 +126,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="$-"
-                    app:layout_constraintEnd_toEndOf="@+id/subtotalTxt"
+                    app:layout_constraintEnd_toEndOf="@+id/totalFeeTxt"
                     app:layout_constraintTop_toTopOf="@+id/textView16" />
 
                 <TextView
-                    android:id="@+id/totaltaxTxt"
+                    android:id="@+id/taxTxt"
                     style="@style/textStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -167,7 +166,7 @@
                     android:layout_height="wrap_content"
                     android:text="$-"
                     app:layout_constraintBottom_toBottomOf="@+id/textView21"
-                    app:layout_constraintEnd_toEndOf="@+id/totaltaxTxt"
+                    app:layout_constraintEnd_toEndOf="@+id/taxTxt"
                     app:layout_constraintTop_toTopOf="@+id/textView21" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -202,7 +201,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:src="@tools:sample/avatars"
                     app:layout_constraintStart_toStartOf="@+id/textView24"
                     app:layout_constraintTop_toBottomOf="@+id/textView24"
                     app:srcCompat="@drawable/location" />
@@ -234,7 +232,6 @@
                     android:layout_marginEnd="8dp"
                     android:scaleX="1.5"
                     android:scaleY="1.5"
-                    android:src="@tools:sample/avatars"
                     app:layout_constraintBottom_toTopOf="@+id/view5"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
@@ -255,7 +252,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:src="@tools:sample/avatars"
                     app:layout_constraintStart_toStartOf="@+id/textView26"
                     app:layout_constraintTop_toBottomOf="@+id/textView26"
                     app:srcCompat="@drawable/credit_card" />
@@ -278,7 +274,6 @@
                     android:layout_marginEnd="8dp"
                     android:scaleX="1.5"
                     android:scaleY="1.5"
-                    android:src="@tools:sample/avatars"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/view5"
